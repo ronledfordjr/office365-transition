@@ -1,1 +1,54 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore local environment files
+*.env
+.env.local
+*.bak
+
+# Ignore sensitive data
+*.key
+*.crt
+*.pem
+
+# Ignore PowerShell scripts backup files
+*.ps1.bak
+*.ps1~*
+
+# Ignore OneDrive temporary files
+~$*
+~*
+
+# Ignore documentation cache or temp files
+*.swp
+*.swo
+
+# Ignore system-wide temporary files
+*.~lock.*
+*.lnk
+*.bak
+*.backup
+
+# Ignore Windows system files
+desktop.ini
+
+# Ignore generated files (e.g., Office exports)
+*.csv
+*.xlsx
+
+# Ignore specific configuration backups
+configs/*.bak
+configs/*.old
+
+# Ignore user-specific local files
+documentation/temp/
 
